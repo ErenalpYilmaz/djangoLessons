@@ -24,6 +24,7 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     # courses.urls i içeri aktardık.
-    path("",include("courses.urls"))
+    path("kurs/",include("courses.urls")),
+    path("",include("pages.urls"))
    
 ]

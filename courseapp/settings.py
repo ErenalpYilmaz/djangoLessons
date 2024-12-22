@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # corses app imizi buraya ekliyoruz.
-    "courses"
+    "courses",
+    "pages"
 ]
 
 MIDDLEWARE = [
